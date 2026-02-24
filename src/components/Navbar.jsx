@@ -1,6 +1,6 @@
-function Menu() {
+function Navbar() {
     return (
-        <div className="menu">
+        <div className="Navbar">
             <a href="/">Viajem</a>
             <a href="/">Início</a>
             <a href="/sobre">Sobre</a>
@@ -9,4 +9,4 @@ function Menu() {
     )
 }
 
-export default Menu
+export default Navbar

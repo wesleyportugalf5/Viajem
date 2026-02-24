@@ -1,23 +1,24 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Inicio from "./pages/Inicio";
+import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
 import Contato from "./pages/Contato";
-import Menu from "./components/Menu";
+import Navbar from "./components/Navbar";
+
 import "./App.css";
 
 function App() {
   return (
   <div className="app">
-    <Menu />
+    <Navbar />
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Inicio/>} />
+        <Route path="/" element={<Home />} />
         <Route path="/sobre" element={<Sobre/>} />
         <Route path="/contato" element={<Contato/>} />
       </Routes>
     </BrowserRouter>
   </div>
-  )
+  );
 }
 
-export default App
+export default App;
