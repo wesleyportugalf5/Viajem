@@ -44,6 +44,10 @@
 
 /* Página Home */
 
+.homeDestaque {
+    margin-bottom: 20px;
+}
+
 .destaqueContainer {
     background-color: rgba(24, 105, 119, 0.699);
 }
@@ -56,4 +60,36 @@
 .destaqueTexto {
     font-size: 30px;
     color: white;
+}
+
+/* Página Home: Categorias */
+
+.categoriasTitulo {
+    font-size: 30px;
+}
+
+.categoriasHome {
+    display: flex;
+    flex-direction: column;
+}
+
+.categoriasContainer {
+    display: flex;
+    margin-top: 10px;
+    gap: 0px 5px;
+}
+
+.categoriasImg {
+    width: 297px;
+    height: 210px;
+}
+
+.categoriasDescricao {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.categoriasContainerTwo {
+    background-color: rgba(24, 105, 119, 0.699);
 }
