@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
 import Contato from "./pages/Contato";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contato" element={<Contato/>} />
       </Routes>
     </BrowserRouter>
+    <Footer />
   </div>
   );
 }

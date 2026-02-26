@@ -1,7 +1,7 @@
 import Campinas from "../img/Campinas.jpg"
 import RiodeJaneiro from "../img/RiodeJaneiro.jpg";
 import MinasGerais from "../img/MinasGerais.jpg"
-import RioGrandedoSul from "../img/RioGrandedoSul.jpg";
+
 
 function Home() {
     return (
@@ -30,6 +30,40 @@ function Home() {
                     <div className="categoriasContainerTwo">
                         <img src={MinasGerais} alt="" className="categoriasImg" />
                         <p className="categoriasDescricao">Minas Gerais: Terra do Pão de Queijo.</p>
+                    </div>
+                </section>
+
+                <h2 className="categoriasTitulo">Europa</h2>
+                <section className="categoriasContainer">
+                    
+                    <div className="categoriasContainerTwo">
+                        <img src={Campinas} alt="" className="categoriasImg" />
+                        <p className="categoriasDescricao">França: Terra da Luz</p>
+                    </div>
+                    <div className="categoriasContainerTwo">
+                        <img src={RiodeJaneiro} alt="" className="categoriasImg" />
+                        <p className="categoriasDescricao">Itália: Berço do Império <br />Romano</p>
+                    </div>
+                    <div className="categoriasContainerTwo">
+                        <img src={MinasGerais} alt="" className="categoriasImg" />
+                        <p className="categoriasDescricao">Alemanha: Terra da Engenharia</p>
+                    </div>
+                </section>
+
+                <h2 className="categoriasTitulo">Ásia</h2>
+                <section className="categoriasContainer">
+                    
+                    <div className="categoriasContainerTwo">
+                        <img src={Campinas} alt="" className="categoriasImg" />
+                        <p className="categoriasDescricao">Japão: Terra dos Animes</p>
+                    </div>
+                    <div className="categoriasContainerTwo">
+                        <img src={RiodeJaneiro} alt="" className="categoriasImg" />
+                        <p className="categoriasDescricao">China: Grandes exportadores</p>
+                    </div>
+                    <div className="categoriasContainerTwo">
+                        <img src={MinasGerais} alt="" className="categoriasImg" />
+                        <p className="categoriasDescricao">Coreia do Sul: Terra do K-pop e da Tecnologia</p>
                     </div>
                 </section>
 
