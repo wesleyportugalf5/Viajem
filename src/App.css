@@ -95,6 +95,10 @@
     background-color: rgba(24, 105, 119, 0.699);
 }
 
+.categoriasLink {
+    text-decoration: none;
+}
+
 /* Footer / Rodapé */
 
 .footerTexto {
