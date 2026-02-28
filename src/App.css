@@ -99,6 +99,17 @@
     text-decoration: none;
 }
 
+/* Paginas */
+
+.tituloPaginas {
+    margin-top: 20px;
+}
+
+.imagensPaginas {
+    width: 900px;
+    margin: 20px 0px;
+}
+
 /* Footer / Rodapé */
 
 .footerTexto {
