@@ -42,7 +42,7 @@ function Home() {
                     <div className="categoriasContainerTwo">
                         <Link to="minasgerais" className="categoriasLink">
                             <img src={MinasGerais} alt="" className="categoriasImg" />
-                            <p className="categoriasDescricao">Minas Gerais: Terra do Pão de Queijo.</p>
+                            <p className="categoriasDescricao">Minas Gerais: Terra do Pão de Queijo</p>
                         </Link>
                     </div>
                 </section>
