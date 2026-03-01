@@ -110,6 +110,64 @@
     margin: 20px 0px;
 }
 
+/* Pagina Contato */
+
+#tituloContato {
+    text-align: center;
+}
+
+.subtituloContato {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.formularioContato {
+    margin: auto;
+    align-items: center;
+    width: 500px;
+    background: rgba(5, 110, 196, 0.05);
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.grupoForm {
+    margin-bottom: 1.5rem;
+}
+
+.campoForm {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+}
+
+.campoForm:focus {
+    border-color: black;
+    box-shadow: 0 0 10px rgba(79, 70, 229, 0.3);
+}
+
+.botaoForm {
+    color: black;
+    background-color: white;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: all 0.5 ease;
+}
+
+.botaoForm:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.4); 
+}
+
 /* Footer / Rodapé */
 
 .footerTexto {
