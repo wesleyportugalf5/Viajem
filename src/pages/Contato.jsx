@@ -24,7 +24,7 @@ function Contato() {
 
             <img src={JapaoThree} alt="" className="imagensPaginas" />
 
-            <p>Como estou passando um tempo no Japão, você pode passar um dia inesquecível comigo, conhecendo esse país incrível por metade do preço.</p>
+            <p className="ultimoParagrafoMax">Como estou passando um tempo no Japão, você pode passar um dia inesquecível comigo, conhecendo esse país incrível por metade do preço.</p>
         </div>
     )
 }

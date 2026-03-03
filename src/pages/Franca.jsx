@@ -19,7 +19,7 @@ function Franca() {
 
             <img src={FrancaThree} alt="" className="imagensPaginas" />
 
-            <p>Na gastronomia, croissants, queijos, vinhos e macarons são experiências obrigatórias. A França também é referência mundial em moda, arte e cinema.</p>
+            <p className="ultimoParagrafo">Na gastronomia, croissants, queijos, vinhos e macarons são experiências obrigatórias. A França também é referência mundial em moda, arte e cinema.</p>
         </div>
     )
 }

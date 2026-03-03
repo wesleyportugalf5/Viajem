@@ -19,7 +19,7 @@ function CoreiadoSul() {
             
             <img src={CoreiadoSulTwo} alt="" className="imagensPaginas" />
 
-            <p>Na gastronomia, kimchi, bulgogi e churrasco coreano são experiências imperdíveis.</p>
+            <p className="ultimoParagrafoMax">Na gastronomia, kimchi, bulgogi e churrasco coreano são experiências imperdíveis.</p>
         </div>
     )
 }

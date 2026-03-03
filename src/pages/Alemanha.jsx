@@ -19,7 +19,7 @@ function Alemanha() {
             <img src={AlemanhaThree} alt=""
             className="imagensPaginas" />
 
-            <p>
+            <p className="ultimoParagrafo">
             A culinária destaca salsichas, pretzels e cervejas artesanais, especialmente durante a famosa Oktoberfest em Munique.
             </p>            
         </div>

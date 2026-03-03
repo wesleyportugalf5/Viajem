@@ -18,7 +18,7 @@ function Japao() {
 
             <img src={JapaoThree} alt="" className="imagensPaginas" />
 
-            <p>A culinária japonesa é patrimônio cultural: sushi, ramen, tempurá e cerimônia do chá fazem parte da experiência.</p>
+            <p className="ultimoParagrafo">A culinária japonesa é patrimônio cultural: sushi, ramen, tempurá e cerimônia do chá fazem parte da experiência.</p>
         </div>
     )
 }

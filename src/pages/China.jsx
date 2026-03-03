@@ -19,7 +19,7 @@ function China() {
 
             <img src={ChinaTwo} alt="" className="imagensPaginas" />
 
-            <p>
+            <p className="ultimoParagrafo">
             A culinária varia entre regiões, com destaque para o pato laqueado de Pequim e os pratos apimentados de Sichuan.
             </p>
         </div>

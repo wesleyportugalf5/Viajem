@@ -17,8 +17,10 @@ function Home() {
 
             <section className="homeDestaque">
                 <div className="destaqueContainer">
+                <Link to="/campinas" className="categoriasLink">
                     <img src={CampinasImg} alt="Imagem da cidade de Campinas" className="destaqueImg" />
                     <h1 className="destaqueTexto">Por que muitos de São Paulo - SP estão indo morar em Campinas?</h1>
+                </Link>
                 </div>
             </section>
 
@@ -28,16 +30,16 @@ function Home() {
                 <section className="categoriasContainer">
                     
                     <div className="categoriasContainerTwo">
-                    <Link to="/campinas" className="categoriasLink">
-                        <img src={CampinasImg} alt="" className="categoriasImg" />
-                        <p className="categoriasDescricao">Campinas: Princesa d’Oeste</p>
-                    </Link>
-                    </div>
-                    <div className="categoriasContainerTwo">
                         <Link to="/riodejaneiro" className="categoriasLink">
                             <img src={RiodeJaneiro} alt="" className="categoriasImg" />
                             <p className="categoriasDescricao">Rio de Janeiro: Cidade Maravilhosa</p>
                         </Link>
+                    </div>
+                    <div className="categoriasContainerTwo">
+                    <Link to="/campinas" className="categoriasLink">
+                        <img src={CampinasImg} alt="" className="categoriasImg" />
+                        <p className="categoriasDescricao">Campinas: Princesa d’Oeste</p>
+                    </Link>
                     </div>
                     <div className="categoriasContainerTwo">
                         <Link to="minasgerais" className="categoriasLink">

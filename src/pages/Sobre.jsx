@@ -15,7 +15,7 @@ function Sobre() {
 
             <img src={AlemanhaThree} alt="" className="imagensPaginas" />
 
-            <p>Explore o site, e planeje já sua próxima viagem!!</p>
+            <p className="ultimoParagrafoMax">Explore o site, e planeje já sua próxima viagem!!</p>
         </div>
     )
 }
