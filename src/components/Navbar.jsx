@@ -1,12 +1,12 @@
 function Navbar() {
     return (
-        <div className="Navbar">
-            <div className="navbarContainer">
-                <a href="/" className="navbarLinks">Início</a>
-                <a href="/sobre" className="navbarLinks">Sobre</a>
-                <a href="/contato" className="navbarLinks">Contato</a>
-            </div>
-        </div>
+        <nav className="NavBar">
+            <ul className="NavUl">
+                <li><a href="/" className="NavLinks">Início</a></li>
+                <li><a href="/sobre" className="NavLinks">Sobre</a></li>
+                <li><a href="/contato" className="NavLinks">Contato</a></li>
+            </ul>
+        </nav>
     )
 }
 
