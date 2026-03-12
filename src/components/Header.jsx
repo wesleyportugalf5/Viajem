@@ -1,17 +1,27 @@
+import { useState } from 'react';
 import Navbar from "./Navbar";
 import Logotipo from "../img/logotipoViajem.png"
-import { IoMdMenu } from "react-icons/io";
+import { IoMdMenu, IoMdClose } from "react-icons/io";
 
 
 function Header() {
+    const [menuAberta, setMenuAberta] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuAberta(!menuAberta);
+    };
 
     return (
         <div className="Header">
             <img src={Logotipo} alt="Logotipo" className="Logotipo" />
 
-            <IoMdMenu className="menuHamburguer" />
+            {menuAberta ? (
+                <IoMdClose className="menuHamburguer" onClick={toggleMenu} />
+            ) : (
+                <IoMdMenu className="menuHamburguer" onClick={toggleMenu} />
+            )}
 
-            <Navbar />
+            <Navbar menuAberta={menuAberta} />
         </div>
     )
 }

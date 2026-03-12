@@ -21,7 +21,9 @@
     justify-content: space-evenly;
     align-items: center;
     /* border: 1px solid blue; */
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .Logotipo {
@@ -210,46 +212,55 @@
         /* border: 1px solid red; */
     }
 
+    /* Header */
+
+    .Header {
+        justify-content: space-between;
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+
+    .Header:has(.NavBar.active) {
+        margin-bottom: 120px;
+    }
+
     .menuHamburguer {
         display: block;
         font-size: 40px;
+        cursor: pointer;
     }
 
     .NavBar {
-        display: flex;
-        flex-direction: column;
         display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
     }
 
-    /* .Header {
+    .NavBar.active {
         display: flex;
-        max-height: 100px;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-bottom: 10px;
-    } */
-    
-    /* .Logotipo {
-        max-width: 250px;
-    } */
-    
-    /* .NavLinks {
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
-        font-weight: 500;
-        padding: 0rem 1rem;
-    } */
-    
-    /* .NavLinks:hover {
-        font-size: 22px;
-        color: rgb(24, 156, 156);
-        transition: 0.4s ease;
-    } */
+        margin-top: 12px;
+        background-color: rgba(24, 105, 119, 0.699);
+    }
+
+    .NavUl {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .NavLinks {
+        color: white;
+    }
+
+    /* Formulário */
 
     .formularioContato {
         width: 100%;
     }
+
+    /* Destaque */
 
     .homeDestaque {
         margin-bottom: 25px;
