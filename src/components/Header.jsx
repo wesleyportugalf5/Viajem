@@ -13,7 +13,7 @@ function Header() {
 
     return (
         <div className="Header">
-            <img src={Logotipo} alt="Logotipo" className="Logotipo" />
+            <a href="/"><img src={Logotipo} alt="Logotipo" className="Logotipo" /></a>
 
             {menuAberta ? (
                 <IoMdClose className="menuHamburguer" onClick={toggleMenu} />

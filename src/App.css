@@ -229,7 +229,7 @@ hr {
     }
 
     .Header:has(.NavBar.active) {
-        margin-bottom: 120px;
+        margin-bottom: 125px;
     }
 
     .menuHamburguer {
