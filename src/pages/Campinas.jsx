@@ -3,7 +3,7 @@ import CampinasTwo from "../img/Campinas02.jpg";
 
 function Campinas() {
     return (
-        <div className="campinas">
+        <div className="paginasRegioes">
             <h2 className="tituloPaginas">Campinas — A Princesa d’Oeste e seu charme surpreendente</h2>
             <br />
             <p>

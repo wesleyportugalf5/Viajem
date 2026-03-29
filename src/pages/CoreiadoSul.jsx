@@ -3,7 +3,7 @@ import CoreiadoSulThree from "../img/CoreiadoSul03.jpg";
 
 function CoreiadoSul() {
     return (
-        <div>
+        <div className="paginasRegioes">
             <h2 className="tituloPaginas">Coreia do Sul: Terra do K-pop e da Tecnologia</h2>
             <br />
             <p>

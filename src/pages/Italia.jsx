@@ -3,7 +3,7 @@ import ItaliaThree from "../img/Italia03.jpg";
 
 function Italia() {
     return (
-        <div>
+        <div className="paginasRegioes">
             <h2 className="tituloPaginas">Itália: Berço do Império Romano</h2>
             <br />
             <p>

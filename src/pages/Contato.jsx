@@ -2,7 +2,7 @@ import JapaoThree from "../img/Japao03.jpg";
 
 function Contato() {
     return (
-        <div className="contato">
+        <div className="paginasRegioes">
             <h2 className="tituloPaginas" id="tituloContato">Entre em Contato</h2>
 
             <p className="subtituloContato">Para uma experiência incrível comigo. Valores a partir de R$1500</p>

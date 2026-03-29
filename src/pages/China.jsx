@@ -3,7 +3,7 @@ import ChinaThree from "../img/China03.jpg";
 
 function China() {
     return (
-        <div>
+        <div className="paginasRegioes">
             <h2 className="tituloPaginas">China: Grandes exportadores</h2>
             <br />
             <p>

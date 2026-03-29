@@ -3,7 +3,7 @@ import FrancaThree from "../img/Franca03.jpg";
 
 function Franca() {
     return (
-        <div>
+        <div className="paginasRegioes">
             <h2 className="tituloPaginas">França: Terra da Luz</h2>
             <br />
 

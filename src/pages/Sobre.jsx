@@ -3,7 +3,7 @@ import AlemanhaThree from "../img/Alemanha03.jpg";
 
 function Sobre() {
     return (
-        <div>
+        <div className="paginasRegioes">
             <h2 className="tituloPaginas">Sobre</h2>
             <br />
 

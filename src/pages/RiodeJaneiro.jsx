@@ -3,7 +3,7 @@ import RiodeJaneiroThree from "../img/RiodeJaneiro03.jpg";
 
 function RiodeJaneiro() {
     return (
-        <div>
+        <div className="paginasRegioes">
             <h2 className="tituloPaginas">Rio de Janeiro: Cidade Maravilhosa</h2>
             <br />
             <p>

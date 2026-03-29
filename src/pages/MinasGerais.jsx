@@ -3,7 +3,7 @@ import MinasGeraisThree from "../img/MinasGerais03.jpg";
 
 function MinasGerais() {
     return (
-        <div>
+        <div className="paginasRegioes">
             <h2 className="tituloPaginas">Minas Gerais: Terra do Pão de Queijo</h2>
             <br />
             <p>

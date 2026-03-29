@@ -310,6 +310,10 @@ hr {
 
   /* Página Home: Destaque */
 
+  .home {
+    margin-bottom: 20px;
+  }
+
   .destaqueImg {
     width: 740px;
     /* height: 450px; */
@@ -354,11 +358,22 @@ hr {
     background-color: rgba(24, 105, 119, 0.699);
   }
 
+  /* Páginas */
+
+  .paginasRegioes {
+    padding: 0px 86px;
+    margin-bottom: 30px;
+  }
+  
+  .imagensPaginas {
+    width: 727px;
+  }
+
   /* Footer - Rodapé */
 
   .footerTexto {
-    margin: 30px 80px 0px 80px;
-    padding: 15px;
+    width: 740px;
+    margin: auto;
     background-color: rgba(24, 105, 119, 0.699);
     color: white;
     text-align: center;

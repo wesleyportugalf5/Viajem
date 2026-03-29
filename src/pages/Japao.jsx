@@ -3,7 +3,7 @@ import JapaoThree from "../img/Japao03.jpg";
 
 function Japao() {
     return (
-        <div>
+        <div className="paginasRegioes">
             <h2 className="tituloPaginas">Japão: Terra dos Animes</h2>
             <br />
             <p>
